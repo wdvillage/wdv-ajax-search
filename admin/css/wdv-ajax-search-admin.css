@@ -1,0 +1,339 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .wdv-header img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+ }
+  .wdv-header {
+  text-align: center;
+ }
+ .wdv-ajax-dashboard .top-box,
+ .wdv-ajax-dashboard .settings-box {
+    overflow: hidden;
+    background: #FEFEFE;
+    border: solid 1px #DDDDDD;
+    outline: 0;
+    font: normal 13px/100% Verdana,Tahoma,sans-serif;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgb(0 0 0 / 10%) 0px 0px 8px;
+    padding: 2%;
+    margin: 2%;
+    width: 92%;
+}
+.wdv-ajax-dashboard h1 {
+  text-align: center;
+  color: #4CAF50;
+}
+.wdv-ajax-dashboard .section-header {
+  padding: 15px;
+  background: #fff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.layoutbox {
+  display: inline-block;
+  width: 45%;
+  padding: 15px;
+  vertical-align: top;
+}
+#form-layout select,
+#form-layout input {
+  width: 70%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#layout_theme {
+  width: 70%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* Style tab*/
+#form-search .form-group{
+  margin-bottom: 10px;
+}
+#form-search input,
+#form-search textarea {
+  width: 100%;
+}
+
+#create-btn,
+#wpbody-content .deletebtn,
+#wpbody-content .edit-btn,
+.deleteform {
+  padding: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  border-width: 1px;
+}
+.savelayout,
+.saveimage,
+#submit_form  {
+  padding: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-left: 0;
+  background: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  border-width: 1px;
+}
+.hidedelete {
+  visibility: hidden;
+}
+.nameerror {
+  color: red;
+  padding: 25px;
+  border: 1px solid red;
+  text-align: center;
+  font-size: 110%;
+  background: #fff;
+  width: 70%;
+  margin: 0 auto;
+}
+.nameerror span {
+  font-weight: bold;
+  
+}
+.wdv-container .text {
+  margin: 15px 15px 15px 0;
+}
+
+.wdv-btn:hover,
+.wdv-btn:visited {
+    color: #fff;
+}
+.wdv-btn {
+  padding: 15px;
+  padding-right: 15px;
+  background: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+      border-width: 1px;
+}
+.show-shortcode {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid gray;
+  background: gray;
+  margin: 2px;
+  color: #fff;
+}
+
+.shortcode {
+  display: inline-block;
+}
+.wdv-ajax-dashboard input[type=checkbox] {
+  margin: 5px;
+}
+.wdv-ajax-dashboard table, .wdv-ajax-dashboard td, .wdv-ajax-dashboard th {
+  border: 1px solid black;
+}
+
+.wdv-ajax-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.wdv-ajax-dashboard td, th {
+  padding: 15px;
+  text-align: left;
+}
+.wdv-ajax-dashboard th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.wdv-ajax-dashboard tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+/*Modal*/
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal content */
+.modal-content,
+.modal-delete-content {
+  background-color: #fefefe;
+  margin: 15% 25% 15% 35%; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%; 
+}
+
+/* Close button */
+#close,
+.edit-close,
+.delete-close,
+#create-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+#close:hover,
+#close:focus,
+.delete-close:hover,
+.delete-close:focus,
+.edit-close:hover,
+.edit-close:focus,
+#create-close:hover,
+#create-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.error {color: #FF0000;}
+.form-group {
+  width: 100%;
+}
+.form-group .form-control {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*#myTabModal */
+.modal-tab-content {
+  background-color: #fefefe;
+  margin: 5% 10% 5% 20%; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%; 
+}
+
+.wdv-container ul  {
+  margin-bottom: -6px;
+}
+.wdv-container ul li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+}
+.generalid  {
+   background: #FAEBD7;
+   padding: 10px;
+}
+
+.general  {
+     background: #FAEBD7;
+   padding: 10px;
+}
+
+.imageid {
+   background: #F0F8FF; 
+    padding: 10px;
+}
+
+.image  {
+  background: #F0F8FF; 
+    padding: 10px;
+}
+.frontendid {
+  background: #ffcba1; 
+   padding: 10px;
+} 
+
+.frontend {
+  background: #ffcba1; 
+   padding: 10px;
+} 
+.layoutid {
+  background: #F5F5DC;
+   padding: 10px;
+}
+
+.layout {
+  background: #F5F5DC;
+   padding: 10px;
+}
+
+
+/*Form*/
+.imagebox,
+.form-part,
+.search-on-page
+{
+  padding: 15px;
+  border: 1px solid #fff;
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.search-on-page
+{
+  border: 1px solid #fff;
+}
+.image img {
+  width: 40px;
+}
+
+.selectimg.show{
+ display: inline;
+}
+legend {
+  font-weight: bold;
+}
+.selectimage {
+  border: 1px solid #fff;
+  padding: 15px;
+}
+.selectimage img {
+  max-width: 400px;
+}
+.top-box .tabl {
+  background: #FAEBD7;
+  padding: 15px;
+}
+
+input[type=radio] {
+    border-radius: 50%;
+    margin: .25rem;
+    line-height: 1rem;
+}
+.sett {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.sett input{
+  margin-top: 0.5em;
+}
+.mainsett {
+  display: block;
+  margin-top: 3.5em;
+  margin-bottom: 3.5em;
+}

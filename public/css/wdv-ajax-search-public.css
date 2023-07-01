@@ -1,0 +1,269 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .wdv-ajax-color {
+  background: #FFFF00;
+  }
+ .result {
+  display: none;
+ }
+ .result thead {
+  height: 35px;
+ }
+.no-record {
+  text-align: center;
+  height: 30px;
+  padding: 5px;
+}
+ .p_excerpt {
+  font-size: smaller;
+ }
+
+.wdv-site-search .wrapper {
+  display: none;
+  width: 100%;
+  max-height: 350px;
+ border: 1px solid #ccc;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.wdv-site-search #page1 {
+  display: block;
+}
+
+.wdv-site-search table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 0;
+  margin: 0;
+}
+.wdv-site-search td {
+  border: 1px solid #ccc;
+}
+.wdv-site-search .wdv-prev {
+  display: inline-block;
+  float: left;
+  text-align: center;
+    padding: 5px 10px;
+}
+#tab th {
+ background: #ccc;
+  color: #fff;
+  font-size: small;
+  text-align: center;
+  padding: 0;
+  border-color: #ccc;
+}
+
+.wdv-site-search .wdv-next {
+  display: inline-block;
+  float: right;
+  text-align: center;
+  padding: 5px 10px;
+}
+.wdv-site-search button:disabled,
+.wdv-site-search button[disabled]{
+  opacity: 0.3;
+}
+.wdv-site-search .alert {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 15px;
+-webkit-box-shadow: 0px 0px 20px 3px #BCBCBC; 
+box-shadow: 0px 0px 20px 3px #BCBCBC;
+}
+
+.wdv-site-search input[type="text"] {
+    color: #666;
+    background: transparent;
+    border-radius: 0;
+    width: 100%;
+    border-left: 1px solid #333;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-color: transparent;
+    vertical-align: middle;
+  }
+.wdv-site-search {
+       margin: 0 auto;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+
+/* Search form  begin*/
+.wdv-site-search form {  
+   width: 100%;
+   text-align: center;
+ }
+.wdv-site-search  {
+   /*position: relative;*/
+}
+
+.wdv-site-search .input-group #search{
+   float:right;
+}
+.wdv-site-search .input-group input{
+ /* position: relative;*/
+   float:right;
+    width:  85%;
+    height: 3em;
+    padding-left: 1em;
+}
+
+.wdv-site-search .cont {
+  position: relative;
+}
+/*Search on all site*/
+.spinn {
+ position: absolute;
+    top: 1em;
+    right: 1em;
+  width: 1em;
+  height: 1em;
+}
+.wdv-site-search .input-group-addon {
+   position: relative;
+    width:  55px;
+}
+ .wdv-site-search form span {
+   display: inline;
+ }
+ .wdv-site-search label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/*****************************/
+/* Search form theme type 1 */
+/*****************************/
+
+
+/*****************************/
+/* Search form theme type 2 */
+/*****************************/
+.wdv-site-search .cont {
+  border: 1px solid #ccc;
+  border-right-width: 0;
+  border-left-width: 0;
+  height: 3em;
+}
+.wdv-site-search #search {
+  width: calc(100% - 70px);
+  padding: 14px 15px 14px 35px;
+  font-size: 16px;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-color: #ccc;
+  margin: 0;
+}
+
+.wdv-site-search .fa-search  {
+    font-size: 1em;
+    padding: 1em;
+}
+
+/*****************************/
+/* Search form theme type 3 */
+/*****************************/
+
+
+/*****************************/
+/*For search on post or page*/
+/*****************************/
+ .finder {
+  position: fixed;
+  top: -50px;
+  right: 0;
+  left: 0;
+  z-index: 99999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 50px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  transition: top 0.15s ease-out;
+}
+
+.finder.active {
+  top: 0;
+}
+
+.finder-input {
+  flex-grow: 1;
+  width: 0;
+  height: 40px;
+  border: none;
+  padding: 8px;
+  outline: none !important;
+}
+
+.finder-input.not-found {
+  color: #e7353f;
+}
+
+.btn-finder {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 0;
+}
+
+.finder-input,
+.btn-finder:not(:last-child) {
+  margin-right: 5px;
+}
+
+.finder-count {
+ padding: 8px 12px 8px 8px;
+}
+
+#finderPrev,
+#finderNext {
+    display: none;
+}
+
+.btn-finder,
+.finder-count {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.highlight {
+  background: #ff8 !important;
+}
+
+.highlight.active {
+  background: #ff8 !important;
+}
+
+
+/***********************************************/
+/*       finger activator in the top of page   */
+/***********************************************/
+
+.finder-activator{
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+} 
+.finder-activator .search-text  {
+
+}
+
+#search-text {
+  display: inline-block;
+}
